@@ -1,0 +1,3 @@
+各种取Windows版本的方法。
+
+想要稳定，还是使用微软推荐的VerifyVersionInfo，并添加manifest。
