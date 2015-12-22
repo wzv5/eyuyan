@@ -7,6 +7,7 @@
 毕竟强行兼容嘛，先保证能用，至于用得舒服不舒服，那以后再慢慢说~（等我有高DPI显示屏再说。。。）
 
 我这个代码就是做了两件事：
+
 1. hook GetStockObject，如果参数为DEFAULT_GUI_FONT，就返回固定的9号宋体（避免xp风格的字体缩放导致文字显示溢出）
 2. 调用SetProcessDPIAware告诉系统我自己能处理高DPI（禁用DPI虚拟化）
 
